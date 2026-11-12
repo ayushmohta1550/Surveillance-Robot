@@ -1,0 +1,10 @@
+Person $person_number
+Track ID: $track_id
+Identity status: $identity_status
+Name: $name
+Upper clothing: $upper_clothing
+Lower clothing: $lower_clothing
+Carried items: $carried_items
+Activity: $activity
+Position: $position
+Description: “$description”

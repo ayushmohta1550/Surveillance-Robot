@@ -1,0 +1,72 @@
+# Python environments and caches
+.venv*/
+venv/
+env/
+**/.conda/
+**/__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated surveillance data
+input/
+output/
+Database/
+models/
+*.log
+*.eml
+
+# Model weights, checkpoints, datasets, and archives
+**/checkpoints/
+**/checkpoint/
+**/*Checkpoint*.pth
+**/*.pth
+**/*.pt
+**/*.ckpt
+**/*.onnx
+**/*.engine
+**/dataset/
+**/datasets/
+**/validation_sets/
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Local caches and generated model artifacts
+**/.cache/
+**/work_dirs/
+**/logs/
+**/predictions*.json
+**/smoke_test_*/
+
+# Research documents and generated reports
+*.pdf
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.*

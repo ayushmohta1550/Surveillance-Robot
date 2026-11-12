@@ -1,0 +1,30 @@
+SURVEILLANCE ROBOT REPORT
+------------------------
+
+Event ID: $event_id
+Event: $event_type
+Date and time: $date_time_with_timezone
+Location: $location
+Robot/Camera: $source_id
+
+PEOPLE SUMMARY
+Total people visible: $total_count
+Known people: $known_count
+Unknown people: $unknown_count
+Unresolved identities: $unresolved_count
+
+PERSON DETAILS
+$person_blocks
+
+ALERT DETAILS
+Reason: $specific_observed_reason
+First detected: $first_detected_time
+Duration observed: $observed_duration
+Status: $status
+
+EVIDENCE
+Snapshot: $snapshot
+Video clip: $video_clip
+
+------------------------
+Automated surveillance report.

@@ -1,0 +1,9 @@
+[submodule "sapiensid"]
+	path = sapiensid
+	url = https://github.com/mk-minchul/sapiensid.git
+[submodule "OpenPAR"]
+	path = OpenPAR
+	url = https://github.com/Event-AHU/OpenPAR.git
+[submodule "PoseC3d"]
+	path = PoseC3d
+	url = https://github.com/kennymckormick/pyskl.git
